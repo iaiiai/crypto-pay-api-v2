@@ -1,17 +1,17 @@
 {
-  "name": "@foile/crypto-pay-api",
-  "version": "1.0.4",
+  "name": "crypto-pay-api-v2",
+  "version": "2.0.0",
   "description": "Cryptocurrency payment system based on @CryptoBot",
   "license": "MIT",
-  "author": "Foile",
+  "author": "iaiiai",
   "main": "src/crypto-pay.js",
-  "homepage": "https://github.com/Foile/crypto-pay-api#readme",
+  "homepage": "https://github.com/iaiiai/crypto-pay-api-v2#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Foile/crypto-pay-api.git"
+    "url": "git+https://github.com/iaiiai/crypto-pay-api-v2.git"
   },
   "bugs": {
-    "url": "https://github.com/Foile/crypto-pay-api/issues"
+    "url": "https://github.com/iaiiai/crypto-pay-api-v2/issues"
   },
   "scripts": {
     "prettier": "prettier src examples -w",
