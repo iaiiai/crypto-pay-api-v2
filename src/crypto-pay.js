@@ -87,6 +87,10 @@ class CryptoPay {
     return this.callApi('createInvoice', { asset, amount, ...options });
   }
 
+  async createCheck(asset, amount, options = {}) {
+    return this.callApi('createCheck', { asset, amount, ...options });
+  }
+
   /**
    * Use this method to send coins from your app to the user. Returns object of completed transfer
    * @param {number} user_id - Telegram User ID
